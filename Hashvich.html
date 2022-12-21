@@ -1,127 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/hashvichStyle.css">
-    <link rel="stylesheet" href="./css/hashvichMedia768.css">
-    <link rel="stylesheet" href="./css/hashvichMedia375.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/hashvichStyle.css" />
+    <link rel="stylesheet" href="./css/hashvichMedia768.css" />
+    <link rel="stylesheet" href="./css/hashvichMedia375.css" />
     <title>Առցանց հաշվիչ</title>
-</head>
-<body>
-        <div class="header">
-        <div class="logo"><a href="index.html"></a></div>
-        <a  href="#" class="toggle-button" onclick="toggleNav(this)" >
-            <span class="bar1"></span>
-            <span class="bar2"></span>
-            <span class="bar3"></span>
-        </a>  
+  </head>
+  <body>
+    <div class="header" id="header">
+      <div class="logo" id="logo"><a href="index.html"></a></div>
+      <a
+        href="#"
+        class="toggle-button"
+        id="toggle-button"
+        onclick="toggleNav(this)"
+      >
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </a>
 
-        <ul class="navbar">
-               <li><a href="About.html" class="about">Մեր մասին</a> </li>
-            <li><a href="Masnachyux.html">Մասնաճյուղեր</a> </li>
-            <li><a href="Blog.html">Բլոգ</a> </li>
-            <li><a href="Contact.html">Կապ</a></li>
-            <li><a href="Hashvich.html" class="active">Առցանց հաշվիչ</a></li>
-        </ul>
-        <div class="language resp-lang">
-            <a href="#" class="active">Հայ</a>
-            <a href="#">EN</a>
-            <a href="#">РУ</a>
-        </div>
-        <div class="icons">
-          <input class="search-input" type="text" name="" placeholder="Որոնել" id="search-input">
-          <img class="search_icon" src="./img/search.png" alt="" id="search">
-          <img class="heart_icon" src="./img//heart.png" alt="">
-        </div>
-        <div class="line"></div>
-        <div class="call">
-            <a class="phone">+374 33 51 55 55</a>
-            <a href="tel:+37433515555" class="order-call">Պատվիրել զանգ</a>
-        </div>
+      <ul class="navbar" id="navbar">
+        <li><a href="About.html" class="about">Մեր մասին</a></li>
+        <li><a href="Masnachyux.html">Մասնաճյուղեր</a></li>
+        <li><a href="Blog.html">Բլոգ</a></li>
+        <li><a href="Contact.html">Կապ</a></li>
+        <li><a href="Hashvich.html" class="active">Առցանց հաշվիչ</a></li>
+      </ul>
+      <div class="language resp-lang">
+        <a href="#" class="active">Հայ</a>
+        <a href="Hashvichen.html">EN</a>
+        <a href="Hashvichru.html">РУ</a>
+      </div>
+      <div class="icons">
+        <span id="search-active">Որոնում</span
+        ><input class="search-input" type="text" name="" id="search-input" />
+        <img class="search_icon" src="./img/search.png" alt="" id="search" />
+        <img id="search_icon-active" src="./img/active-search.png" alt="" />
+
+        <img class="heart_icon" id="heart_icon" src="./img//heart.png" alt="" />
+      </div>
+      <div class="line" id="line"></div>
+      <div class="call" id="call">
+        <a class="phone">+374 33 51 55 55</a>
+        <a href="tel:+37433515555" class="order-call">Պատվիրել զանգ</a>
+      </div>
     </div>
     <div class="second-menu">
-        <div class="second-menu-navigation">
-            <a href="Apranq.html" class="sub-menu-a">Կղմինդր</a>
-            <a href="Apranq.html" class="sub-menu-a">Թիթեղ</a>
-            <a href="Apranq.html" class="sub-menu-a">Պրոֆիլ</a>
-            <a href="Apranq.html" class="sub-menu-a">Պրոֆնաստիլ</a>
-            <a href="Apranq.html" class="sub-menu-a">Ցանցեր</a>
-            <a href="Apranq.html" class="sub-menu-a">Մետաղական ապրանքներ</a>
-            <a href="Apranq.html" class="sub-menu-a">Տանիքը համալրող դետալներ</a>
-            <a href="Apranq.html" class="sub-menu-a">Այլ</a>
-        </div>
-        <div class="language">
-            <a href="#" class="active">Հայ</a>
-            <a href="#">EN</a>
-            <a href="#">РУ</a>
-        </div>
+      <div class="second-menu-navigation">
+        <a href="Apranq.html" class="sub-menu-a">Կղմինդր</a>
+        <a href="Apranq.html" class="sub-menu-a">Թիթեղ</a>
+        <a href="Apranq.html" class="sub-menu-a">Պրոֆիլ</a>
+        <a href="Apranq.html" class="sub-menu-a">Պրոֆնաստիլ</a>
+        <a href="Apranq.html" class="sub-menu-a">Ցանցեր</a>
+        <a href="Apranq.html" class="sub-menu-a">Մետաղական ապրանքներ</a>
+        <a href="Apranq.html" class="sub-menu-a">Տանիքը համալրող դետալներ</a>
+        <a href="Apranq.html" class="sub-menu-a">Այլ</a>
+      </div>
+      <div class="language">
+        <a href="#" class="active">Հայ</a>
+        <a href="Hashvichen.html">EN</a>
+        <a href="Hashvichru.html">РУ</a>
+      </div>
     </div>
     <div class="menu_holder">
-        <div class="text_center">
-            <div class="border_div"></div>
-            <p class="credit">Առցանց հաշվիչ</p>
-        </div>
+      <div class="text_center">
+        <div class="border_div"></div>
+        <p class="credit">Առցանց հաշվիչ</p>
+      </div>
     </div>
     <div class="container">
-        <div class="texts">
-            <p class="main">Գլխավոր
-                <img src="./img/arrow.png" class="arrow">Առցանց հաշվիչ
-            </p>
+      <div class="texts">
+        <p class="main">
+          Գլխավոր <img src="./img/arrow.png" class="arrow" />Առցանց հաշվիչ
+        </p>
+      </div>
+
+      <div class="arcancTitle">Ընտրեք տանիքածածկը</div>
+      <div class="main-arcanc">
+        <div class="roofs-select">
+          <label for="roof-select">Տանիքի ձև</label>
+          <select name="roof1" id="roof-select">
+            <option value="">Ընտրեք տանիքի ձևը</option>
+            <option value="roof1">NameRoof</option>
+          </select>
         </div>
-  
-          <div class="arcancTitle">Ընտրեք տանիքածածկը</div>
-          <div class="main-arcanc">
-            <div class="roofs-select">
-              <label for="roof-select">Տանիքի ձև</label>
-              <select name="roof1" id="roof-select">
-                  <option value="">Ընտրեք տանիքի ձևը</option>
-                  <option value="roof1">NameRoof</option>
-              </select>
-            </div>
-            <div class="roofs-select A">
-              <label for="roof-select">Տանիքածածկ</label>
-              <select name="roof2" id="roof-select">
-                  <option value="">Ընտրեք տանիքածածկը</option>
-                  <option value="roof2">NameRoof</option>
-              </select>
-            </div>
-            <div class="roofs-select B">
-              <label for="roof-select">Տանիքածածկի տեսակ</label>
-              <select name="roof3" id="roof-select">
-                  <option value="">Ընտրեք տանիքածածկի տեսակը</option>
-                  <option value="roof3">NameRoof</option>
-              </select>
-            </div>
-          </div>
-          <div class="line-hashvich"></div>
-          <div class="roof-footer-main">
-            <div class="roof-left-side">
-                <div class="left-side-title">Նշեք չափսերը</div>
-                <div class="left-side-inputB">Հիմքի լայնություն</div>
-                <input type="text" placeholder="Մուտքագրեք հիմքի լայնությունը (սմ)" class="left-side-inputA-input" />
-                <div class="left-side-inputA">Հիմքի երկարություն</div>
-                <input type="text" placeholder="Մուտքագրեք հիմքի երկարությունը (սմ)" class="left-side-inputA-input" />
-                <div class="left-side-inputA">Բարձրություն</div>
-                <input type="text" placeholder="Մուտքագրեք բարձրությունը (սմ)" class="left-side-inputA-input" />
-                <div class="left-side-inputA">Ծածկի երկարություն</div>
-                <input type="text" placeholder="Մուտքագրեք ծածկի երկարությունը (սմ)" class="left-side-inputA-input" />
-                
-            </div>
-            <div class="roof-right-side">
-              <img src="./img/naomi.png" />
-            </div>
-          </div>
-           <div class="line-hashvich"></div>
-            <div class="calcButton">
-              <button class="calc-button">Հաշվել</button>
-            </div>
-           
-    </div> 
- 
+        <div class="roofs-select A">
+          <label for="roof-select">Տանիքածածկ</label>
+          <select name="roof2" id="roof-select">
+            <option value="">Ընտրեք տանիքածածկը</option>
+            <option value="roof2">NameRoof</option>
+          </select>
+        </div>
+        <div class="roofs-select B">
+          <label for="roof-select">Տանիքածածկի տեսակ</label>
+          <select name="roof3" id="roof-select">
+            <option value="">Ընտրեք տանիքածածկի տեսակը</option>
+            <option value="roof3">NameRoof</option>
+          </select>
+        </div>
+      </div>
+      <div class="line-hashvich"></div>
+      <div class="roof-footer-main">
+        <div class="roof-left-side">
+          <div class="left-side-title">Նշեք չափսերը</div>
+
+          <div class="left-side-inputB">Հիմքի լայնություն</div>
+          <input
+            type="text"
+            placeholder="Մուտքագրեք հիմքի լայնությունը (սմ)"
+            class="left-side-inputA-input"
+          />
+          <div class="left-side-inputA">Հիմքի երկարություն</div>
+          <input
+            type="text"
+            placeholder="Մուտքագրեք հիմքի երկարությունը (սմ)"
+            class="left-side-inputA-input"
+          />
+          <div class="left-side-inputA">Բարձրություն</div>
+          <input
+            type="text"
+            placeholder="Մուտքագրեք բարձրությունը (սմ)"
+            class="left-side-inputA-input"
+          />
+          <div class="left-side-inputA">Ծածկի երկարություն</div>
+          <input
+            type="text"
+            placeholder="Մուտքագրեք ծածկի երկարությունը (սմ)"
+            class="left-side-inputA-input"
+          />
+        </div>
+        <div class="roof-right-side">
+          <img src="./img/naomi.png" />
+        </div>
+      </div>
+      <div class="line-hashvich"></div>
+      <div class="calcButton">
+        <button class="calc-button">Հաշվել</button>
+      </div>
+    </div>
+
     <div class="headphones">
-        <img src="./img/naushnik.png" alt="">
+      <img src="./img/naushnik.png" alt="" />
     </div>
     <div class="footer">
       <div class="info">
@@ -159,8 +182,8 @@
         </div>
         <div class="footer-items footer-info">
           <a>Ավելին</a>
-         <a href="About.html" class="about">Մեր մասին</a>          
-          <a  href="Masnachyux.html" class="masnachyux">Մասնաճյուղեր</a>
+          <a href="About.html" class="about">Մեր մասին</a>
+          <a href="Masnachyux.html" class="masnachyux">Մասնաճյուղեր</a>
           <a href="Blog.html">Semur բլոգ</a>
           <a href="#">Գաղտնիության քաղաքականություն</a>
           <a href="Hashvetvutyun.html">Հաշվետվություն</a>
@@ -191,7 +214,7 @@
         </div>
       </div>
     </div>
- 
+
     <script src="./js/style.js"></script>
-</body>
+  </body>
 </html>

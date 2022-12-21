@@ -68,24 +68,31 @@ body {
     margin-left: auto;
 }
 .search-input {
-    width: 280px;
+    width: 500px;
     height: 38px;
-    background: #060606;
+    background: #fdfafa;
+    left: 122px;
     color: white;
     font-size: 20px;
     transition: 0.4s;
-    margin-right: -37px;
+    margin-right: 255px;
     border-radius: 8px;
     padding: 0 7px;
-    border: 1px solid white;
+    border: 1px solid rgb(20, 19, 19);
     display: flex;
     display: none;
   }
   .active1{
     display: block;
   }
-  
-
+  #search-active{
+    display: none;
+    color:#111111;
+    font-size: 16px;
+  }
+#search_icon-active{
+    display: block;
+}
 .heart_icon {
     margin-left: 30.55px;
 }
@@ -308,6 +315,8 @@ body {
  
     margin-top: 12px;
     height: 42px;
+    border-radius: 8px;
+    opacity: 50%;
 
 }
 .A{
@@ -360,6 +369,8 @@ body {
     width: 316px;
     height: 42px;
     margin-top: 12px;
+    border-radius: 8px;
+    opacity: 50%;
 }
 
 .roof-right-side img {
