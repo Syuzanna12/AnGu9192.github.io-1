@@ -60,7 +60,10 @@ body {
 .navbar a:hover {
   color: var(--redColor);
 }
+.navbar a.active{
+  color: var(--redColor);
 
+}
 .icons {
   display: flex;
   align-items: center;
@@ -218,7 +221,10 @@ body {
 .second-menu-navigation a:hover {
   color: var(--redColor);
 }
+.second-menu-navigation a.active{
+  color: var(--redColor);
 
+}
 .language {
   display: flex;
   color: white;
@@ -470,6 +476,10 @@ body {
 
 .footer-items a:hover {
   color: var(--redColor);
+}
+.footer-items a.active{
+  color: var(--redColor);
+
 }
 
 .footer-items a:first-child {

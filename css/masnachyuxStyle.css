@@ -52,6 +52,10 @@
 .navbar a:hover {
     color: var(--redColor);
 }
+.navbar a.active{
+  color: var(--redColor);
+
+}
 
 .icons {
     display: flex;
@@ -408,7 +412,10 @@
   .footer-items a:hover {
     color: var(--redColor);
   }
-  
+  .footer-items a.active{
+    color: var(--redColor);
+
+  }
   .footer-items a:first-child {
     margin-bottom: 8px;
     color: #85888A;
@@ -434,9 +441,16 @@
   .footer-info {
     margin-left: 50px;
   }
-  .resp-menu, .resp-hr{
+  .resp-menu{
     display: none;
   }
+  .resp-hr {
+    width: 295px;
+    margin-top: 24px;
+    border: 1px solid #615F66;
+    display: none;
+  }
+  
   .resp-menu-ul a{
     color: var(--redColor);
 }

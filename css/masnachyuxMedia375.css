@@ -133,6 +133,8 @@
 
 .resp-hr{
     display:block;
+    justify-content: center;
+    align-items: center;
 }
 
 .resp-menu ul li {

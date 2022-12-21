@@ -57,6 +57,10 @@ body {
 .navbar a:hover {
     color: var(--redColor);
 }
+.navbar a.active{
+    color: var(--redColor);
+
+}
 
 .icons {
     display: flex;

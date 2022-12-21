@@ -241,7 +241,6 @@ font-size: 100%;
 .slider-item {
   width: calc(100% / 4);
   padding: 0 2.6%;
-
   background-image:
     linear-gradient(0deg, rgba(15, 14, 16, 1) 0%, rgba(15, 14, 16, 0.01) 84%, rgba(169, 167, 170, 1) 100%),
     url('../img/tesakani/home1.png');
@@ -409,6 +408,80 @@ font-size: 100%;
   margin-top: 361px;
   color: #F5F5F5;
 }
+
+.glxavor-orderCall {
+  background-image: url("../img/glxavor-orderCall.png");
+  max-width: 1920px;
+  height: 312px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-form-order{
+  position: absolute;
+  top: 48px;
+  left: 60px;
+
+}
+.oder-call{
+  color: #F5F5F5;
+  font-size: 48px;
+}
+.oder-call-text{
+  width: 627px;
+  margin-top: 12px;
+  color: #F1EDEA;
+  font-size: 14px;
+}
+.inputBox-call{
+  display: flex;
+}
+.inputBox-call{
+  margin-top: 41px;
+  display: flex;
+}
+.inputBox{
+  display: flex;
+  flex-direction: column;
+}
+.inputBox input{
+ outline: none;
+ background: transparent;
+ width: 296px;
+ font-size: 18px;
+ color: white;
+ border: none;
+ border-bottom: 2px solid #F1EDEA;
+}
+.inputBox span{
+  color: white;
+  font-size: 15px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.btn-callOrder{
+  background-color: var(--redColor);
+  border: none;
+  width: 122px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+}
+.A-order{
+  margin-left: 96px;
+}
+.B-order{
+  margin-left: 59px;
+}
+
+ .inputBox input:focus ~ span,
+ .inputBox input:valid ~ span{
+    font-size: 15px;
+    color: #85888A;
+    transform: translateY(-20px);
+
+}
 .footer {
   max-width: 1920px;
   margin: 0 auto;
@@ -500,11 +573,19 @@ font-size: 100%;
   margin-left: 50px;
 }
 
-.resp-menu,
+.resp-menu {
+  display: none;
+}
 .resp-hr {
+  width: 295px;
+  margin-top: 24px;
+  border: 1px solid #615F66;
   display: none;
 }
 
+.resp-menu-ul a{
+  color: var(--redColor);
+}
 @media screen and (max-width:546px) {
   .footer-img {
     display: none;
