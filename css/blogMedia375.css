@@ -1,5 +1,7 @@
 @media screen and (max-width:440px) {
-    
+
+  
+  
     .line,
     .phone,
     .order-call,
@@ -10,7 +12,7 @@
     }
 
     .header {
-        width: 375px;
+        width: 412px;
         height: 76px;
         left: 0;
         transform: translate(0);
@@ -74,7 +76,7 @@
     }
 
     .menu_holder {
-        width: 375px;
+        width: 412px;
         height: 250px;
         background-image: url("../img/bachground3.png");
         background-size: cover;
@@ -87,33 +89,82 @@
     .border_div {
         width: 51px;
     }
-    .blog-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+  
+    .blog-title {
+        margin-top: 2px;
     }
-
-    .blog-item {
-        width: 704px;
-        margin: 32px;
+    .item-title{
+        font-size: 150%;
     }
-    .pagination{
+    .texts{
+        margin-top: 1%;
+        width: 343px;
+        height: 55px;
+        font-size: 112.5%;
+    }
+    .texts  span{
         display: none;
     }
-    .pagination-resp{
-        display: block;
+    .item-img{
+        display: flex;
+        width: 304px;
+        margin-top: 42px;
+    
     }
-
-    .item-img {
+    .item1{
+        width: 240px;
+    }
+    .title-text-first{
+        width: 704px;
+        height: 330px;
+    
+    }
+    .title-text2{
         width: 343px;
-        height: 240px;
+        height: 632px;
+        margin-top: 1px;
     }
-
-    .item-text {
+    .title-tex,.title-text{
         width: 343px;
-        height: 72px;
+
     }
 
+    .blog-news-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .end-news-title{
+        font-size: 150%;
+    }
+    .item-img-blog{
+      margin-left: -78px;
+      display: flex;
+      flex-direction: column;
+    }
+    .item-blog-img{
+        width: 343px;
+    }
+    .center-text{
+        margin-left: -200px;
+    }
+    .center-text-border{
+        height: 168px;
+    }
+    .center-text-main{
+        width: 321px;
+        height: 168px;
+        font-size: 100%;
+
+    }
+    .title-content-img{
+        width: 343px;
+    }
+    .after-hr{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+ 
     .footer{
         margin-top: 24px;
         height: 402px;

@@ -1,5 +1,7 @@
 @media screen and (max-width:440px) {
 
+  
+  
     .line,
     .phone,
     .order-call,
@@ -17,7 +19,7 @@
     }
 
     .logo {
-        background-image: url(./img/Logo.png);
+        background-image: url(../img/Logo.png);
         min-width: 63px;
         height: 36px;
         background-size: cover;
@@ -49,7 +51,7 @@
         background-color: rgb(0, 0, 0);
         position: relative;
         top: 76px;
-        right: -5%;
+        right: -6%;
         transition: 1s;
         margin-left: -55px;
     }
@@ -76,7 +78,7 @@
     .menu_holder {
         width: 412px;
         height: 250px;
-        background-image: url("./img/bachground3.png");
+        background-image: url("../img/bachground3.png");
         background-size: cover;
     }
 
@@ -87,6 +89,7 @@
     .border_div {
         width: 51px;
     }
+
 
     .contact-container{
         width: 363px;

@@ -216,6 +216,7 @@
 
 }
 
+
 .resp-lang{
     display: none;
 }
@@ -487,7 +488,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    right: 153px;
+    right: 140px;
     bottom: 47px;
     display: none;
 }
@@ -527,6 +528,9 @@
 .headphones-hover:hover .hover-icons {
     display: block;
 
+}
+.headphones-hover{
+    width: 400px;
 }
 .headphones {
     position: fixed;
