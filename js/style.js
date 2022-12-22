@@ -10,6 +10,7 @@ const call = document.getElementById("call");
 const search_active = document.getElementById("search-active");
 const header = document.getElementById("header");
 const search_icon_active=document.getElementById("search_icon-active");
+const close = document.getElementById("close")
 
 
 
@@ -23,15 +24,30 @@ function toggleNav(x) {
 
 search.addEventListener("click", () => {
   searchInput.classList.toggle("active1");
-  line.style.display = "none";
-  heart_icon.style.display = "none";
+
+  // line.style.display = "none";
+  // heart_icon.style.display = "none";
   logo.style.display = "none";
-  navbar.style.display = "none";
-  navbar.style.display = "none";
-  call.style.display = "none";
+  // navbar.style.display = "none";
+  // navbar.style.display = "none";
+   call.style.display = "none";
   search_active.style.display="block";
   header.style.backgroundColor="white";
-  search.style.display="none";
+  // search.style.display="none";
+  navbar.style.display = "none"
   search_icon_active.style.display="block";
+  close.style.display ="block"
 
 });
+close.addEventListener("click",()=>{
+  navBarLinks.classList.remove("active");
+  // searchInput.classList.remove("active1")
+  header.style.backgroundColor="black";
+  navbar.style.display = "block";
+  logo.style.display = "block";
+  call.style.display = "block";
+  close.style.display = "none"
+  searchInput.style.display = "none"
+
+
+})

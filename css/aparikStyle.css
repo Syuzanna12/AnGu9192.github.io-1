@@ -357,12 +357,59 @@
     height: 49px
 }
 
+.hover-icons {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 140px;
+  bottom: 47px;
+  display: none;
+}
 
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+
+.hover-icon-watsup {
+  background-color: #39AE41;
+}
+
+.hover-icon-call {
+  background-color: #02295F;
+
+}
+
+.hover-icon-messanger {
+  background-color: #0084FF;
+}
+
+.hover-icon-mail {
+  background-color: #00897B;
+}
+
+.hover-icon-headphone {
+  background-color: #EF4B37;
+}
+.headphones-hover:hover .hover-icons {
+  display: block;
+
+}
+.headphones-hover{
+  width: 400px;
+}
 .headphones {
-    position: fixed;
-    right: 65px;
-    bottom: 20px;
-    z-index: 999;
+  position: fixed;
+  right: 65px;
+  bottom: 20px;
+  z-index: 999;
 }
 .footer {
     max-width: 1920px;

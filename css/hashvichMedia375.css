@@ -42,25 +42,43 @@
 
 
     .navbar {
-        width: 350px;
-        height: 0px;
-        overflow: hidden;
-        flex-direction: column;
-        background-color: rgb(0, 0, 0);
+        height: 0;
+        display: block;
+        background-color: white;
         position: relative;
         top: 76px;
-        right: -5%;
+        margin-left: -125px;
+        right: 0;
         transition: 1s;
-        margin-left: -55px;
+        border-radius: 0 0 9px 9px;
+        align-items: flex-start;
+
+
     }
 
+    .navbar a {
+        color: black;
+        display: block;
+    }
+    
     .navbar li {
-        padding: 10px 10px;
+        padding: 5px 10px;
         margin-right: 0;
+        color: black;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .arrow-right-menu {
+        display: block;
+
     }
 
     .navbar.active {
-        height: 200px;
+        width: 430px;
+        height: 324px;
         transform: translate(3px);
     }
 
@@ -68,7 +86,21 @@
         transform: translateY(0px) rotate(50deg);
     }
 
+    .resp-lang-menu{
+        display: flex;
+    }
 
+
+    .arrow-right-menu,
+    .resp-menu-line,
+    .resp-lang-menu,
+    .resp-neu-li {
+        display: block;
+    }
+    .resp-menu ul li {
+        color: var(--redColor);
+        line-height: 15px;
+    }
     .second-menu {
         display: none;
     }
@@ -85,7 +117,9 @@
     }
 
     .credit {
-        font-size: 112.5%;
+        font-size: 18px;
+        margin-top: 104px;
+
     }
 
     .border_div {
@@ -143,6 +177,11 @@
         margin-top: 15px;
     }
 
+    .resp-menu ul li a{
+        color: var(--redColor);
+        line-height: 15px;
+    }
+
     .resp-hr {
         display: block;
         justify-content: center;
@@ -190,7 +229,6 @@
     .copy1 {
         width: 350px;
     }
-
 
 
     .footer-img {

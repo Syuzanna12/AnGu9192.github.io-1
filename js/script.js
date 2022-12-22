@@ -1,5 +1,6 @@
  
  const galleryItems=document.querySelector(".aboutSlide").children;
+ const blog_item= document.querySelector("blog-item");
  const prev=document.querySelector(".prev");
  const next=document.querySelector(".next");
  const page=document.querySelector(".page-num");

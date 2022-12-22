@@ -20,8 +20,8 @@ body {
     height: 92px;
     display: flex;
     background-color: #060606;
-    opacity: 90%;
-    position: fixed;
+/*     opacity: 90%;
+ */    position: fixed;
     left: 50%;
     transform: translate(-50%);
     top: 0;
@@ -59,7 +59,33 @@ body {
 }
 .navbar a.active{
     color: var(--redColor);
-
+}
+a.active{
+    color: var(--redColor);
+}
+li{
+    display: flex;
+}
+.resp-menu-line{
+    width: 343px;
+    border: 1px solid #D8D7D9;
+    display: none;
+}
+.resp-lang-menu{
+    display: flex;
+    margin-left: 150px;
+    display: none;
+}
+.resp-menu-li{
+    display: none;
+}
+.resp-menu-ul a{
+    color: var(--redColor);
+  }
+.arrow-right-menu{
+    position: relative;
+    right: 0;
+    display: none;
 }
 
 .icons {
@@ -84,6 +110,13 @@ body {
   }
   .active1{
     display: block;
+  }
+  #close{
+    position: relative;
+    top: 45%;
+    right: 30px;
+    display: none;
+
   }
   #search-active{
     display: none;
@@ -395,6 +428,54 @@ body {
     justify-content: center;
 }
 
+.hover-icons {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 140px;
+    bottom: 47px;
+    display: none;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.hover-icon-watsup {
+    background-color: #39AE41;
+}
+
+.hover-icon-call {
+    background-color: #02295F;
+
+}
+
+.hover-icon-messanger {
+    background-color: #0084FF;
+}
+
+.hover-icon-mail {
+    background-color: #00897B;
+}
+
+.hover-icon-headphone {
+    background-color: #EF4B37;
+}
+.headphones-hover:hover .hover-icons {
+    display: block;
+
+}
+.headphones-hover{
+    width: 400px;
+}
 .headphones {
     position: fixed;
     right: 65px;

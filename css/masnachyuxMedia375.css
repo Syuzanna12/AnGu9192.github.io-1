@@ -137,7 +137,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.masnachyux-hr{
+    width: 343px;
+}
 .resp-menu ul li {
     text-decoration: none;
     list-style-type: none;

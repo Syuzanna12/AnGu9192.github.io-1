@@ -632,7 +632,16 @@
     margin-left: 50px;
 }
 
-.resp-menu,
-.resp-hr {
+.resp-menu {
     display: none;
 }
+.resp-hr {
+    width: 295px;
+    margin-top: 24px;
+    border: 1px solid #615F66;
+    display: none;
+  }
+  .resp-menu-ul a{
+    color: var(--redColor);
+  }
+  
