@@ -357,6 +357,16 @@ font-size: 100%;
 }
 
 
+.hover-icons {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 140px;
+  bottom: 47px;
+  display: none;
+}
+
+
 .button {
   display: flex;
   justify-content: center;

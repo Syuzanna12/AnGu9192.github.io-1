@@ -1,7 +1,5 @@
 @media screen and (max-width:440px) {
 
-  
-  
   .line,
   .phone,
   .order-call,
@@ -75,9 +73,6 @@
       display: none;
   }
 
-
-
-  
   .footer{
       margin-top: 24px;
   }

@@ -5,71 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/aparikStyle.css">
+    <link rel="stylesheet" href="./css/mainAll.css">
     <link rel="stylesheet" href="./css/aparikMedia768.css">
+    <link rel="stylesheet" href="./css/respmenufooter768.css">
      <link rel="stylesheet" href="./css/aparikMedia375.css">
+     <link rel="stylesheet" href="./css/respmenufooter375.css">
     <title>Document</title>
 </head>
 <body>
-        <div class="header">
-        <div class="logo"><a href="index.html"></a></div>
-        <a  href="#" class="toggle-button" onclick="toggleNav(this)" >
-            <span class="bar1"></span>
-            <span class="bar2"></span>
-            <span class="bar3"></span>
-        </a>  
+  <div class="header" id="header">
+    <div class="logo" id="logo"><a href="index.html"></a></div>
+    <a
+      href="#"
+      class="toggle-button"
+      id="toggle-button"
+      onclick="toggleNav(this)"
+    >
+      <span class="bar1"></span>
+      <span class="bar2"></span>
+      <span class="bar3"></span>
+    </a>      <ul class="navbar" id="navbar">
+<!--       <li><a href="Artadranq.html" class="resp-neu-li">Տեսականի</a><img src="./img/arrow-right-menu.png" class="arrow-right-menu"></li>
+ -->      <li><a href="About.html">Մեր մասին</a><img src="./img/arrow-right-menu.png" class="arrow-right-menu"></li>
+      <li><a href="Masnachyux.html">Մասնաճյուղեր</a><img src="./img/arrow-right-menu.png" class="arrow-right-menu"></li>
+      <li><a href="Blog.html" class="active">Բլոգ</a><img src="./img/arrow-right-menu.png" class="arrow-right-menu"></li>
+      <li><a href="Contact.html">Կապ</a><img src="./img/arrow-right-menu.png" class="arrow-right-menu"></li>
+      <li><a href="Hashvich.html">Առցանց հաշվիչ</a><img src="./img/arrow-right-menu.png" class="arrow-right-menu"></li>
 
-        <ul class="navbar">
-            <li><a href="About.html"  class="active">Մեր մասին</a> </li>
-            <li><a href="Masnachyux.html">Մասնաճյուղեր</a> </li>
-            <li><a href="Blog.html">Բլոգ</a> </li>
-            <li><a href="Contact.html">Կապ</a></li>
-            <li><a href="Hashvich.html">Առցանց հաշվիչ</a></li>
-        </ul>
-        <div class="language resp-lang">
-            <a href="#" class="active">Հայ</a>
-            <a href="#">EN</a>
-            <a href="#">РУ</a>
-        </div>
-        <div class="icons">
-          <input
-          class="search-input"
-          type="text"
-          name=""
-          placeholder="Որոնել"
-          id="search-input"
-        />
-        <img class="search_icon" src="./img/search.png" alt="" id="search" />
-            <img class="heart_icon" src="./img//heart.png" alt="">
-        </div>
-        <div class="line"></div>
-        <div class="call">
-            <a class="phone">+374 33 51 55 55</a>
-            <a href="tel:+37433515555" class="order-call">Պատվիրել զանգ</a>
-        </div>
+      <div class="resp-menu-line"></div>
+      <div class="resp-lang-menu">
+        <a href="#" class="active">Հայ</a>
+        <a href="Masnachyuxen.html">EN</a>
+        <a href="Masnachyuxru.html">РУ</a>
+      </div>
+    </ul>
+
+    <div class="language resp-lang">
+      <a href="#" class="active">Հայ</a>
+      <a href="Masnachyuxen.html">EN</a>
+      <a href="Masnachyuxru.html">РУ</a>
     </div>
-    <div class="second-menu">
-        <div class="second-menu-navigation">
-            <a href="Apranq.html" class="sub-menu-a">Կղմինդր</a>
-            <a href="Apranq.html" class="sub-menu-a">Թիթեղ</a>
-            <a href="Apranq.html" class="sub-menu-a">Պրոֆիլ</a>
-            <a href="Apranq.html" class="sub-menu-a">Պրոֆնաստիլ</a>
-            <a href="Apranq.html" class="sub-menu-a">Ցանցեր</a>
-            <a href="Apranq.html" class="sub-menu-a">Մետաղական ապրանքներ</a>
-            <a href="Apranq.html" class="sub-menu-a">Տանիքը համալրող դետալներ</a>
-            <a href="Apranq.html" class="sub-menu-a">Այլ</a>
-        </div>
-        <div class="language">
-            <a href="#" class="active">Հայ</a>
-            <a href="#">EN</a>
-            <a href="#">РУ</a>
-        </div>
+    <div class="icons">
+      <img class="search_icon" src="./img/search.png" alt="" id="search" />
+      <img class="heart_icon" id="heart_icon" src="./img//heart.png" alt="" />
     </div>
-    <div class="menu_holder">
-        <div class="text_center">
-            <div class="border_div"></div>
-            <p class="credit">Ապառիկ</p>
-        </div>
+    <div class="line" id="line"></div>
+    <div class="call" id="call">
+      <a class="phone">+374 33 51 55 55</a>
+      <a href="tel:+37433515555" class="order-call">Պատվիրել զանգ</a>
     </div>
+  </div>
+  <div class="search-box hidden" id="search-box">
+      <div class="search-label">Որոնում</div>
+      <div class="search-input-wrapper">
+        <input class="search-input" type="text" name="" id="search-input" />
+        <img id="search_icon-active" src="./img/activ-search.png" alt="" />
+     </div>
+    <div class="search-icon-close" id="close-search"><img src="./img/search-icon-close.png" alt=""></div>
+  </div>
+  <div class="second-menu">
+    <div class="second-menu-navigation">
+      <a href="Apranq.html" class="sub-menu-a">Կղմինդր</a>
+      <a href="Apranq.html" class="sub-menu-a">Թիթեղ</a>
+      <a href="Apranq.html" class="sub-menu-a">Պրոֆիլ</a>
+      <a href="Apranq.html" class="sub-menu-a">Պրոֆնաստիլ</a>
+      <a href="Apranq.html" class="sub-menu-a">Ցանցեր</a>
+      <a href="Apranq.html" class="sub-menu-a">Մետաղական ապրանքներ</a>
+      <a href="Apranq.html" class="sub-menu-a">Տանիքը համալրող դետալներ</a>
+      <a href="Apranq.html" class="sub-menu-a">Այլ</a>
+    </div>
+    <div class="language">
+      <a href="#" class="active">Հայ</a>
+      <a href="Hashvichen.html">EN</a>
+      <a href="Hashvichru.html">РУ</a>
+    </div>
+  </div>
+  <div class="menu_holder">
+    <div class="text_center">
+        <div class="border_div"></div>
+        <p class="credit">Ապառիկ</p>
+    </div>
+</div>
     <div class="container">
         <div class="texts">
           <p class="main">Գլխավոր
@@ -165,12 +181,12 @@
         </div>
         <div class="footer-items footer-info">
           <a>Ավելին</a>
-         <a href="About.html" class="about">Մեր մասին</a>          
-          <a  href="Masnachyux.html" class="masnachyux">Մասնաճյուղեր</a>
+         <a href="About.html">Մեր մասին</a>          
+          <a  href="Masnachyux.html">Մասնաճյուղեր</a>
           <a href="Blog.html">Semur բլոգ</a>
           <a href="#">Գաղտնիության քաղաքականություն</a>
           <a href="Hashvetvutyun.html">Հաշվետվություն</a>
-          <a href="Aparik.html"> Ապառիկ վաճառք</a>
+          <a href="Aparik.html" class="active" > Ապառիկ վաճառք</a>
           <a href="Contact.html">Կապ </a>
         </div>
         <div class="resp-footer-line"></div>

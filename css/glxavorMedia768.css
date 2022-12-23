@@ -1,6 +1,7 @@
 
 @media screen and (max-width:768px){
 
+    
     .header {
         width: 768px;
         height: 76px;
@@ -127,31 +128,46 @@
 }
 
 
+.glxavor-orderCall {
+    width: 768px;
+    height: 332px;
 
+}
+.inputBox-call{
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
 
+.btn-callOrder{
+    position: relative;
+    top: 20px;
+    left: 510px;
+}
 
+.footer {
+    position: relative;
+    min-width: 768px;
+    height: 380px;
+}
+  
+.social p {
+    display: none;
+}
+.footer-img {
+    position: absolute;
+    left: 8%;
+    top: 58%;
+}
 
+.copy {
+    width: 276px;
+    margin-top: 82px;
+}
+.copy1 {
+    width: 350px;
+} 
 
- .footer {
-        position: relative;
-        height: 380px;
-    }
-      
-    .social p {
-        display: none;
-    }
-    .footer-img {
-        position: absolute;
-        left: 8%;
-        top: 58%;
-    }
-
-    .copy {
-        width: 276px;
-        margin-top: 82px;
-    }
-    .copy1 {
-        width: 350px;
-    }  
 
 }

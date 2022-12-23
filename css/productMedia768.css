@@ -1,9 +1,6 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-    ․container{
-        max-width: 768;
-        width: 768px;
-    }
+
     .credit_big{
         font-size: 200%;
     }
@@ -20,8 +17,5 @@
     .transparent_text {
         font-size: 100%;
     }
-  
 
-    
-   
 }
