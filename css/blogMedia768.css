@@ -124,26 +124,4 @@
 
 
 
-    
-    .footer {
-        position: relative;
-        height: 380px;
-    }
-      
-    .social p {
-        display: none;
-    }
-    .footer-img {
-        position: absolute;
-        left: 8%;
-        top: 58%;
-    }
-
-    .copy {
-        width: 276px;
-        margin-top: 82px;
-    }
-    .copy1 {
-        width: 350px;
-    } 
 }
