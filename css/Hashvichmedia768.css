@@ -3,6 +3,7 @@
    
     .main-arcanc {
         width: 100%;
+        width:768px;
         display: flex;
         flex-wrap: wrap;
     }
