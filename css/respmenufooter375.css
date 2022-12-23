@@ -139,6 +139,10 @@
         justify-content: center;
         align-items: center;
     }
+    .info a{
+            text-align: center;
+
+    }
 
     .resp-footer-line {
         color: rgb(245, 238, 238);
